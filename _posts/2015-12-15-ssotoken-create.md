@@ -33,4 +33,4 @@ Redirecting the user to this url should login the user immediately.
   }
 }```
 
-For error responses, see the [response status codes documentation](#/response-status-codes).
+For error responses, see the [error responses documentation](#/error-responses).

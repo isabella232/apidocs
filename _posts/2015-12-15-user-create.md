@@ -38,4 +38,4 @@ This method allows API consumers to create new users for their Koding teams.
   }
 }```
 
-For error responses, see the [response status codes documentation](#/response-status-codes).
+For error responses, see the [error responses documentation](#/error-responses).
