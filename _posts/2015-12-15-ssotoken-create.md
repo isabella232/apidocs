@@ -19,7 +19,7 @@ username and password.
 ### Parameters
 
 * **username** (_required_)
-  * should be an existing Koding username that belongs to API consumer's team.
+  * should be an existing Koding username that is registered to API consumer's team domain.
 
 
 ### Response
