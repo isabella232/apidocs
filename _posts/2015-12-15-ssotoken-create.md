@@ -6,7 +6,9 @@ type: 'POST'
 
 ---
 
-This method allows API consumers to create new users for their Koding teams.
+This method allows API consumers to create SSO tokens for the users in their teams.
+With a SSO token, users can login to their Koding team domains without entering
+username and password.
 
 ### Authentication
 
@@ -22,8 +24,8 @@ This method allows API consumers to create new users for their Koding teams.
 
 ### Response
 
-**If succeeds**, returns a loginUrl. Redirecting the user to this url
-should login the user immediately.
+**If succeeds**, returns a loginUrl which contains the SSO token.
+Redirecting the user to this url should login the user immediately.
 
 ```{
   data : {
