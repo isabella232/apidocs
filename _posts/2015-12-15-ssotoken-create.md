@@ -10,10 +10,10 @@ This method allows API consumers to create SSO tokens for the users in their tea
 With a SSO token, users can login to their Koding team domains without entering
 username and password.
 
-### Authentication
+### Authorization
 
-* The headers must include a **valid authentication token**.
-```Authentication: Bearer {TOKEN}```
+* The request headers must include a **valid API token** which can be obtained from team settings page.
+```Authorization: Bearer {TOKEN}```
 
 
 ### Parameters

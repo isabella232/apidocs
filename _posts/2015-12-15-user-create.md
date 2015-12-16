@@ -8,10 +8,10 @@ type: 'POST'
 
 This method allows API consumers to create new users for their Koding teams.
 
-### Authentication
+### Authorization
 
-* The headers must include a **valid authentication token**.
-```Authentication: Bearer {TOKEN}```
+* The request headers must include a **valid API token** which can be obtained from team settings page.
+```Authorization: Bearer {TOKEN}```
 
 
 ### Parameters
